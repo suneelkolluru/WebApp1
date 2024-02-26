@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool: 'ajay'
-#  vmImage: ubuntu-latest
+pool: 
+  vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
