@@ -18,7 +18,7 @@ variables:
   environmentName: 'ajaygoud'
 
   # Agent VM image name
-  vmImageName: 'linux-latest'
+  #vmImageName: 'linux-latest'
 
 stages:
 - stage: Build
@@ -53,8 +53,7 @@ stages:
   - deployment: DeployLinuxWebApp
     displayName: Deploy Linux Web App
     environment: $(environmentName)
-    pool:
-      vmImage: $(vmImageName)
+    pool: AJAY2
     strategy:
       runOnce:
         deploy:
