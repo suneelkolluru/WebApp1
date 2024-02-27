@@ -18,7 +18,7 @@ variables:
   environmentName: 'ajaygoud'
 
   # Agent VM image name
-  vmImageName: 'windows-latest'
+  vmImageName: 'linux-latest'
 
 stages:
 - stage: Build
@@ -26,7 +26,7 @@ stages:
   jobs:
   - job: MavenPackageAndPublishArtifacts
     displayName: Maven Package and Publish Artifacts
-    pool: 'ajay'
+    pool: 'ajay2'
       
 
     steps:
