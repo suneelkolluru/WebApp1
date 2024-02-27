@@ -15,7 +15,7 @@ variables:
   webAppName: 'ajaygoud'
 
   # Environment name
-  environmentName: 'ajaygoud'
+  #environmentName: 'ajaygoud'
 
   # Agent VM image name
   #vmImageName: 'linux-latest'
