@@ -45,8 +45,9 @@ stages:
     - upload: $(Build.ArtifactStagingDirectory)
       artifact: drop
 
+
 - stage: Deploy
-  displayName: Deploy stage
+  displayName: UAT stage
   dependsOn: Build
   condition: succeeded()
   jobs:
