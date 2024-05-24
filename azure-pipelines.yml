@@ -6,8 +6,9 @@
 trigger:FFF
 - master
 
-pool: 
-  vmImage: ubuntu-latest
+pool: skagent
+
+  # vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
